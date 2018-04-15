@@ -17,7 +17,7 @@ namespace Git_GettingStarted.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Change made to update Git repository.";
 
             return View();
         }
